@@ -1,14 +1,14 @@
 <?php
 
-//Include manda a la pagina
+//Include inserta el codigo del archivo en la pagina actual, se pueden sumar varios pedazos de codigo en uno
 
 if (strlen($_REQUEST['mensaje'])<5){
 
-	include "menoracinco.html";
+	include "menoracinco.php";
 
 	} else{
 
-		include "mayoracinco.html";
+		include "mayoracinco.php";
 
 }
 
