@@ -73,21 +73,37 @@ echo '<section  id="content2"><br>
 <h3>Data Table</h3>
 </div>
 <table class="table-fill">';
-
-echo '<tr class="text-left">';
 for ($y=0; $y<(int)$_REQUEST['fila']; $y++){
 
-	for ($x=0;$x<(int)$_REQUEST['columna'];$x++){
+if($y==0){
 
-	echo '<td class="text-left"></td>';
+	echo '<thead>';
+
+	} elseif($y==1){
+
+	echo '<tbody class="table-hover">';
+
+	}
+
+	echo '<tr class="text-left">';
+	echo '<td class="text-left">Fila</td>';
+	
+for ($x=0;$x<((int)$_REQUEST['columna']-1);$x++){
+
+	echo '<td class="text-left">Columna</td>';
 
 }		
+
 echo '</tr>';
 
+if($y==0){
+
+echo '</thead>';
 
 }
 
 
+}
 
 echo '</tbody> </table> </section>';
 
