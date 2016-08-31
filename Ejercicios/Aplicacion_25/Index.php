@@ -111,3 +111,14 @@ body {
 
 </html>
 
+<?php
+ 
+ echo '<div class="login-block">';
+ echo '<h1>Superficie</h1>';
+  
+ if (isset($_REQUEST['alto']) && isset($_REQUEST['ancho'])) {
+ 
+ echo $_REQUEST['alto'] * $_REQUEST['ancho'];
+ 
+ }
+ echo '</div>';
