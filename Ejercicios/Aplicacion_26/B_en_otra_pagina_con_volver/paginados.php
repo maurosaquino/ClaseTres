@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title></title>
+	<title>Programacion III - Aplicaciòn XXVI - Mauro Aquino</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>

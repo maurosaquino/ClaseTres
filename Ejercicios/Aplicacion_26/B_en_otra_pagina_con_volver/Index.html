@@ -4,7 +4,7 @@
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <meta charset="UTF-8">
 
-<title>Programacion III - Aplicaciòn XXV - Mauro Aquino</title>
+<title>Programacion III - Aplicaciòn XXVI - Mauro Aquino</title>
 <style>
 body {
     background: url('http://i.imgur.com/Eor57Ae.jpg') no-repeat fixed center center;
