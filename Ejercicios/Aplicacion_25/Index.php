@@ -96,7 +96,7 @@ body {
 
 <div class="login-block">
     <h1>Indique los datos del rectangulo</h1>
-    <form>
+    <form action = "paginados.php">
     <input  type="text" value="" placeholder="Alto del Rectangulo" id="username" name = "alto" />
     <input  type="text" value="" placeholder="Ancho del Rectangulo" id="password"  name = "ancho"/>
     <input  class="login-block" type="submit" value="Calcular" id="boton">
@@ -111,17 +111,3 @@ body {
 
 </html>
 
-<?php
-
-echo '<div class="login-block">';
-echo '<h1>Superficie</h1>';
- 
-if (isset($_REQUEST['alto']) && isset($_REQUEST['ancho'])) {
-
-echo $_REQUEST['alto'] * $_REQUEST['ancho'];
-
-}
-
-echo '</div>';
-
-?>
